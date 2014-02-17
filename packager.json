@@ -82,7 +82,7 @@
 	 *  - Android
 	 *  - AndroidEmulator
 	 */
-	"platform":"Android",
+	"platform":"AndroidEmulator",
 
 	/**
 	 * @cfg  deviceType
