@@ -103,7 +103,7 @@
 	 * This is the location of your certificate.
 	 * This is required when you are developing for Android or you are developing on Windows.
 	 */
-	"certificatePath":"C:/Users/Jan/Android Keystore/android1.keystore",
+	"certificatePath":"/path/to/certificate.file",
 
 	/**
 	 * @cfg  certificateAlias
@@ -121,7 +121,7 @@
 	 * @cfg  certificatePassword
 	 * The password which was specified during certificate export
 	 */
-	"certificatePassword":"qsefth",
+	"certificatePassword":"",
 	/**
 	 * @cfg  provisionProfile
 	 * The path to the provision profile (APP_NAME.mobileprovision) which you can create and then download from Apple's provisioning portal

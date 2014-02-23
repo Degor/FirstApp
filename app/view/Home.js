@@ -1,7 +1,11 @@
 Ext.define('FirstApp.view.Home', {
 	extend: 'Ext.Panel',
 	xtype: 'homepanel',
-	
+
+	requires: [
+        'Ext.TitleBar'
+    ],
+    
 	config: {
 		title: 'Home',
 		iconCls: 'home',

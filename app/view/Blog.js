@@ -1,7 +1,13 @@
 Ext.define('FirstApp.view.Blog', {
 	extend: 'Ext.navigation.View',
 	xtype: 'blog',
-	
+	requires: [
+        'Ext.TitleBar',
+        'Ext.dataview.List',
+        'Ext.JSON',
+        'Ext.data.proxy.JsonP'
+    ],
+
 	config: {
 		title: 'Blog',
 		iconCls: 'star',
